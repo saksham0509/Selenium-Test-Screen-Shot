@@ -12,7 +12,7 @@ public class PayTMTest {
   public void login() throws InterruptedException {
 	  objpaytm.logIn("saksham05109@gmail.com","saksham");
 	  mailsend=new MailSend();
-	  mailsend.logInMail("saksham0509@gmail.com","sakshamguy22").composeMail();
+	  mailsend.logInMail("saksham0509@gmail.com","password").composeMail();
   }
   @BeforeClass
   public void beforeClass() {
